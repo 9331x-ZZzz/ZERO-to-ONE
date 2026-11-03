@@ -1,6 +1,6 @@
 # --- 工具初始化与使用示例 ---
-from tools.ToolExecutor import ToolExecutor
-from tools.searchtool import search
+from AgentDemo.tools.ToolExecutor import ToolExecutor
+from AgentDemo.tools.searchtool import search
 from dotenv import load_dotenv
 
 load_dotenv()

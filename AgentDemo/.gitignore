@@ -6,7 +6,7 @@ Desktop.ini
 
 # Editor files
 .vscode/
-.idea/
+../.idea/
 
 # Playwright MCP
 .playwright-mcp/
@@ -19,8 +19,8 @@ __pycache__/
 *.pyc
 .venv/
 venv/
-.env
-
+AgentDemo/.env
+AgentDemo/.venv/
 # Backend runtime data (uploaded files, vector store)
 backend/data/
 

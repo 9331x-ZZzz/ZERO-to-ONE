@@ -2,9 +2,7 @@
 # from llm_client import HelloAgentsLLM
 from memory import Memory
 
-from dotenv import load_dotenv
-
-from service.llmClient import HelloAgentsLLM
+from AgentDemo.service.llmClient import HelloAgentsLLM
 
 INITIAL_PROMPT_TEMPLATE = """
 你是一位资深的Python程序员。请根据以下要求，编写一个Python函数。

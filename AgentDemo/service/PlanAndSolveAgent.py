@@ -1,6 +1,6 @@
-from service.Executor import Executor
-from service.llmClient import HelloAgentsLLM
-from service.planner import Planner
+from AgentDemo.service.Executor import Executor
+from AgentDemo.service.llmClient import HelloAgentsLLM
+from AgentDemo.service.planner import Planner
 from dotenv import load_dotenv
 
 load_dotenv()

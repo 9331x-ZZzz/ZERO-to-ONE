@@ -1,10 +1,10 @@
 import re
 from logging import exception
 
-from service.llmClient import HelloAgentsLLM
-from tools.ToolExecutor import ToolExecutor
+from AgentDemo.service.llmClient import HelloAgentsLLM
+from AgentDemo.tools.ToolExecutor import ToolExecutor
 from dotenv import load_dotenv
-from tools.searchtool import search
+from AgentDemo.tools.searchtool import search
 
 load_dotenv()
 

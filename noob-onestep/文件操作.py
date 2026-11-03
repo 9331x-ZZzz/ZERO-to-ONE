@@ -32,12 +32,12 @@ print("文件中包含a的行数为：",num)  #打印每行内容
 
 f.close()  #关闭文件 """
 
-f = open("1.txt","w",encoding="utf-8")  #创建文件
+f = open("1.txt", "w", encoding="utf-8")  #创建文件
 f.write("Hello, World!\n")  #写入内容 
 f.flush()  #刷新缓冲区
 f.close()  #关闭文件
 
-f = open("1.txt","a",encoding="utf-8")  #打开文件
+f = open("1.txt", "a", encoding="utf-8")  #打开文件
 f.write("Additional content!")  #写入内容
 f.flush()
 f.close()  #关闭文件
