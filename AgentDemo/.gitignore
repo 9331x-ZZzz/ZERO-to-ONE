@@ -20,6 +20,7 @@ __pycache__/
 .venv/
 venv/
 AgentDemo/.env
+.env
 AgentDemo/.venv/
 # Backend runtime data (uploaded files, vector store)
 backend/data/
